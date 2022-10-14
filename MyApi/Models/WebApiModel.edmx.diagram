@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="145ada17f7774acbab418301f1a66812" Name="Diagram1">
+        <EntityTypeShape EntityType="FirsttDataBaseShulanovModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirsttDataBaseShulanovModel.ChatMessage" Width="1.5" PointX="3" PointY="3.5" />
+        <EntityTypeShape EntityType="FirsttDataBaseShulanovModel.ChatRoom" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="FirsttDataBaseShulanovModel.ChatRoomUser" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="FirsttDataBaseShulanovModel.sysdiagrams" Width="1.5" PointX="3.375" PointY="7.625" />
+        <AssociationConnector Association="FirsttDataBaseShulanovModel.FK_ChatMessage_ChatRoom" />
+        <AssociationConnector Association="FirsttDataBaseShulanovModel.FK_ChatMessage_User" />
+        <AssociationConnector Association="FirsttDataBaseShulanovModel.FK_ChatRoomUser_ChatRoom" />
+        <AssociationConnector Association="FirsttDataBaseShulanovModel.FK_ChatRoomUser_User" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
